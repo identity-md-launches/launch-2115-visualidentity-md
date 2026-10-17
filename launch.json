@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "VIMDToken",
+    "name": "VisualIdentity.md",
+    "symbol": "VIMD",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":8800,"initialMarketCapWei":"2500000000000000000000","remainderTo":"0x6945df968a39edd0aa3f4b85f4949f6bf0f458f5"},
+  "notes": "VIMDToken is a fixed-supply ERC-20 with 18 decimals. Its parameterless constructor mints all 1,000,000,000 VIMD once to msg.sender, the launch factory at deployment. It has no administrative privileges, transfer fees, or external mint or burn functions. No application contracts are deployed. pool.initialPrice records provenance only; the deployer derives the opening price from economics.initialMarketCapWei and token.totalSupply."
+}
